@@ -1,0 +1,20 @@
+{
+  "name": "direct-ui",
+  "version": "0.0.1",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "rollup -c",
+    "watch-build": "rollup -cw"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "bugs": "https://github.com/direct-u/direct-ui/issues"
+}
